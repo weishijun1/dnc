@@ -396,7 +396,7 @@ contract CappedToken is MintableToken {
  * DNC Token, totalSupply 100000000000000000
  */
 contract DncToken is BurnableToken, CappedToken(100000000000000000) {
-    string public name = "DNC Token";
+    string public name = "olg Token";
     string public symbol = "DNC";
     uint8 public decimals = 8;
 
